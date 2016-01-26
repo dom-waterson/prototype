@@ -1,0 +1,51 @@
+{
+  "name": "app",
+  "productName": "App",
+  "version": "0.0.0",
+  "main": "index.js",
+  "node-main": "index.js",
+  "description": "",
+  "license": "MIT",
+  "repository": "user/repo",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "electronVersion": "0.36.0",
+  "scripts": {
+    "test": "xo",
+    "build-mac": "electron-packager ./.prebuild Mockster --ignore=.dist --out=.dist/osx --platform=darwin --arch=x64 --version=0.28.2",
+    "build-win": "electron-packager ./.prebuild Mockster --ignore=.dist --out=.dist/win --platform=win32 --arch=x64 --version=0.28.2",
+    "build-lnx": "electron-packager ./.prebuild Mockster --ignore=.dist --out=.dist/lnx --platform=linux --arch=x64 --version=0.28.2",
+    "build": "npm run-script build-mac && npm run-script build-win && npm run-script build-lnx"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "devDependencies": {
+    "del": "~2.2.0",
+    "electron-builder": "~2.6.0",
+    "electron-packager": "~5.2.1",
+    "electron-prebuilt": "^0.36.0",
+    "express": "~4.13.3",
+    "body-parser": "^1.14.2",
+    "fs": "0.0.2",
+    "gulp": "~3.9.0",
+    "gulp-asar": "0.0.2",
+    "gulp-concat": "~2.6.0",
+    "gulp-imagemin": "~2.4.0",
+    "gulp-jshint": "~2.0.0",
+    "gulp-less": "~3.0.5",
+    "gulp-shell": "~0.5.1",
+    "gulp-watch": "~4.3.5",
+    "jshint": "~2.9.1",
+    "xo": "^0.12.0"
+  }
+}

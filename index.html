@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app="Tombola.Mockster">
+	<head>
+		<meta charset="utf-8">
+		<title>Mocktster</title>
+		<link rel="stylesheet" href="index.css">
+		<script type="application/javascript" src="bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="scripts/app.js"></script>
+	</head>
+	<body ng-controller="MocksterController">
+		<div class="container">
+			<header>
+			</header>
+			<section class="main">
+				<h1>Mock*</h1>
+				<h2 >http://localhost:<span ng-bind="mocksterService.port"></span></h2>
+				<div ng-repeat="call in mocksterService.requests">
+					<div style="border: solid 1px #11AA11; background-color: #3CF371">
+						<span ng-bind="::call.request.method"></span>
+						<span ng-bind="::call.request.originalUrl"></span>
+						<div style="font-style: italic" ng-bind="::call.request.body">
+						</div>
+					</div>
+					<div style="border: solid 1px #1111AA; background-color:#3C71F3">
+						<span ng-bind="::call.response.statusCode"></span>
+						<span ng-bind="::call.response.statusMessage"></span>
+						<div style="font-style: italic" ng-bind="::call.response.body">
+						</div>
+					</div>
+				</div>
+
+				<button ng-click="mocksterService.clearRequests()">Clear Log</button>
+			</section>
+			<footer></footer>
+		</div>
+	</body>
+</html>

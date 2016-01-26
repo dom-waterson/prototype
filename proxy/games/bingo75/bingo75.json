@@ -1,0 +1,383 @@
+{
+  "connect": "{ \"guid\": \"bf00d6b2-0a7b-4b14-b66f-2c507bbc7108\" }",
+  "auth": "[{\"Number\":2,\"Contents\":\"<admin command=\\\"auth\\\" user=\\\"waterson89\\\" balance=\\\"996977\\\" existingspend=\\\"0\\\" nextgameq=\\\"0\\\" club=\\\"1\\\" nextgameclub=\\\"0\\\" currentgameclub=\\\"0\\\"  ticketprice=\\\"25\\\" pattern=\\\"0111011111101011111110001\\\" patternname=\\\"Space Invader\\\"  />\"}]",
+  "purchase": "[{\"Number\":8,\"Contents\":\"<admin command=\\\"purchase\\\" success=\\\"true\\\" newbalance=\\\"996967\\\" newexistingspend=\\\"10\\\" quantity=\\\"1\\\" />\"}]",
+  "calls": [
+	{
+	  "Number": 17,
+	  "Contents": "<calls command=\"calls\" callno=\"1\" call=\"49\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 18,
+	  "Contents": "<calls command=\"calls\" callno=\"2\" call=\"37\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 19,
+	  "Contents": "<calls command=\"calls\" callno=\"3\" call=\"4\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 20,
+	  "Contents": "<admin command=\"nextgame\" time=\"340\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 21,
+	  "Contents": "<calls command=\"calls\" callno=\"4\" call=\"12\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 22,
+	  "Contents": "<calls command=\"calls\" callno=\"5\" call=\"27\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 23,
+	  "Contents": "<admin command=\"nextgame\" time=\"330\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 24,
+	  "Contents": "<calls command=\"calls\" callno=\"6\" call=\"1\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 25,
+	  "Contents": "<calls command=\"calls\" callno=\"7\" call=\"13\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 26,
+	  "Contents": "<calls command=\"calls\" callno=\"8\" call=\"63\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 27,
+	  "Contents": "<admin command=\"nextgame\" time=\"320\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 28,
+	  "Contents": "<calls command=\"calls\" callno=\"9\" call=\"80\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 29,
+	  "Contents": "<calls command=\"calls\" callno=\"10\" call=\"18\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 30,
+	  "Contents": "<admin command=\"nextgame\" time=\"310\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 31,
+	  "Contents": "<calls command=\"calls\" callno=\"11\" call=\"53\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 32,
+	  "Contents": "<calls command=\"calls\" callno=\"12\" call=\"86\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 33,
+	  "Contents": "<calls command=\"calls\" callno=\"13\" call=\"81\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 34,
+	  "Contents": "<admin command=\"nextgame\" time=\"300\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 35,
+	  "Contents": "<calls command=\"calls\" callno=\"14\" call=\"11\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 36,
+	  "Contents": "<calls command=\"calls\" callno=\"15\" call=\"2\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 37,
+	  "Contents": "<admin command=\"nextgame\" time=\"290\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 38,
+	  "Contents": "<calls command=\"calls\" callno=\"16\" call=\"35\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 39,
+	  "Contents": "<calls command=\"calls\" callno=\"17\" call=\"61\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 40,
+	  "Contents": "<calls command=\"calls\" callno=\"18\" call=\"55\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 41,
+	  "Contents": "<admin command=\"nextgame\" time=\"280\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 42,
+	  "Contents": "<calls command=\"calls\" callno=\"19\" call=\"25\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 43,
+	  "Contents": "<calls command=\"calls\" callno=\"20\" call=\"88\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 44,
+	  "Contents": "<admin command=\"nextgame\" time=\"270\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 45,
+	  "Contents": "<calls command=\"calls\" callno=\"21\" call=\"32\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 46,
+	  "Contents": "<calls command=\"calls\" callno=\"22\" call=\"14\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 47,
+	  "Contents": "<calls command=\"calls\" callno=\"23\" call=\"41\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 48,
+	  "Contents": "<admin command=\"nextgame\" time=\"260\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 49,
+	  "Contents": "<calls command=\"calls\" callno=\"24\" call=\"34\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 50,
+	  "Contents": "<calls command=\"calls\" callno=\"25\" call=\"45\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 51,
+	  "Contents": "<admin command=\"nextgame\" time=\"250\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 52,
+	  "Contents": "<calls command=\"calls\" callno=\"26\" call=\"30\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 53,
+	  "Contents": "<calls command=\"calls\" callno=\"27\" call=\"74\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 54,
+	  "Contents": "<calls command=\"calls\" callno=\"28\" call=\"40\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 55,
+	  "Contents": "<admin command=\"nextgame\" time=\"240\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 56,
+	  "Contents": "<calls command=\"calls\" callno=\"29\" call=\"22\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 57,
+	  "Contents": "<calls command=\"calls\" callno=\"30\" call=\"23\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 58,
+	  "Contents": "<admin command=\"nextgame\" time=\"230\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 59,
+	  "Contents": "<calls command=\"calls\" callno=\"31\" call=\"75\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 60,
+	  "Contents": "<admin command=\"balance\" balance=\"161398\" />"
+	},
+	{
+	  "Number": 61,
+	  "Contents": "<calls command=\"winner\" quantity=\"1\" jackpot=\"False\" ><winner user=\"bigmanjapan\" prize=\"10\" stage=\"1\" /></calls>"
+	},
+	{
+	  "Number": 62,
+	  "Contents": "<calls command=\"SetStage\" newstage=\"3\" />"
+	},
+	{
+	  "Number": 63,
+	  "Contents": "<admin command=\"nextgame\" time=\"220\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 64,
+	  "Contents": "<calls command=\"calls\" callno=\"32\" call=\"65\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 65,
+	  "Contents": "<calls command=\"calls\" callno=\"33\" call=\"16\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 66,
+	  "Contents": "<admin command=\"nextgame\" time=\"210\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 67,
+	  "Contents": "<calls command=\"calls\" callno=\"34\" call=\"87\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 68,
+	  "Contents": "<calls command=\"calls\" callno=\"35\" call=\"52\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 69,
+	  "Contents": "<admin command=\"nextgame\" time=\"200\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 70,
+	  "Contents": "<calls command=\"calls\" callno=\"36\" call=\"8\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 71,
+	  "Contents": "<calls command=\"calls\" callno=\"37\" call=\"28\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 72,
+	  "Contents": "<calls command=\"calls\" callno=\"38\" call=\"89\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 73,
+	  "Contents": "<admin command=\"nextgame\" time=\"190\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 74,
+	  "Contents": "<calls command=\"calls\" callno=\"39\" call=\"73\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 75,
+	  "Contents": "<calls command=\"calls\" callno=\"40\" call=\"29\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 76,
+	  "Contents": "<admin command=\"nextgame\" time=\"180\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 77,
+	  "Contents": "<calls command=\"calls\" callno=\"41\" call=\"6\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 78,
+	  "Contents": "<calls command=\"calls\" callno=\"42\" call=\"24\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 79,
+	  "Contents": "<calls command=\"calls\" callno=\"43\" call=\"71\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 80,
+	  "Contents": "<admin command=\"nextgame\" time=\"170\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 81,
+	  "Contents": "<calls command=\"calls\" callno=\"44\" call=\"84\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 82,
+	  "Contents": "<calls command=\"calls\" callno=\"45\" call=\"77\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 83,
+	  "Contents": "<admin command=\"nextgame\" time=\"160\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 84,
+	  "Contents": "<calls command=\"calls\" callno=\"46\" call=\"17\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 85,
+	  "Contents": "<calls command=\"calls\" callno=\"47\" call=\"54\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 86,
+	  "Contents": "<calls command=\"calls\" callno=\"48\" call=\"79\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 87,
+	  "Contents": "<admin command=\"nextgame\" time=\"150\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 88,
+	  "Contents": "<calls command=\"calls\" callno=\"49\" call=\"20\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 89,
+	  "Contents": "<calls command=\"calls\" callno=\"50\" call=\"31\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 90,
+	  "Contents": "<admin command=\"nextgame\" time=\"140\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 91,
+	  "Contents": "<calls command=\"calls\" callno=\"51\" call=\"50\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 92,
+	  "Contents": "<calls command=\"calls\" callno=\"52\" call=\"76\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 93,
+	  "Contents": "<calls command=\"calls\" callno=\"53\" call=\"43\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 94,
+	  "Contents": "<admin command=\"nextgame\" time=\"130\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 95,
+	  "Contents": "<calls command=\"calls\" callno=\"54\" call=\"67\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 96,
+	  "Contents": "<calls command=\"calls\" callno=\"55\" call=\"44\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 97,
+	  "Contents": "<admin command=\"nextgame\" time=\"120\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 98,
+	  "Contents": "<calls command=\"calls\" callno=\"56\" call=\"26\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 99,
+	  "Contents": "<calls command=\"calls\" callno=\"57\" call=\"9\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 100,
+	  "Contents": "<calls command=\"calls\" callno=\"58\" call=\"78\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 101,
+	  "Contents": "<admin command=\"nextgame\" time=\"110\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 102,
+	  "Contents": "<calls command=\"calls\" callno=\"59\" call=\"15\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 103,
+	  "Contents": "<calls command=\"calls\" callno=\"60\" call=\"69\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 104,
+	  "Contents": "<admin command=\"nextgame\" time=\"100\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 105,
+	  "Contents": "<calls command=\"calls\" callno=\"61\" call=\"90\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 106,
+	  "Contents": "<calls command=\"calls\" callno=\"62\" call=\"42\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 107,
+	  "Contents": "<calls command=\"calls\" callno=\"63\" call=\"83\" jackpot=\"1487955\"/>"
+	},
+	{
+	  "Number": 108,
+	  "Contents": "<admin command=\"nextgame\" time=\"90\" gameno=\"3225701\" prize=\"0\" linked=\"True\" promotype=\"0\" />"
+	},
+	{
+	  "Number": 109,
+	  "Contents": "<admin command=\"balance\" balance=\"161422\" />"
+	},
+	{
+	  "Number": 110,
+	  "Contents": "<calls command=\"winner\" quantity=\"1\" jackpot=\"False\" ><winner user=\"bigmanjapan\" prize=\"24\" stage=\"3\" /></calls>"
+	}
+  ]
+}
