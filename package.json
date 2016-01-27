@@ -47,5 +47,8 @@
     "gulp-watch": "~4.3.5",
     "jshint": "~2.9.1",
     "xo": "^0.12.0"
+  },
+  "dependencies": {
+    "express-xml-bodyparser": "^0.2.2"
   }
 }
