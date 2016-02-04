@@ -1,0 +1,42 @@
+{ "guid": "d0696cfb-e762-4f20-9add-0b98963bfbf9" }//chat
+{ "guid": "293bd3b7-be6d-4f50-aeb6-025b1641f5eb" }//game
+[{"Number":1,"Contents":"<connected />"}]
+
+//auth
+{"Number":2,"Contents":"<admin command=\"auth\" user=\"waterson89\" balance=\"997737\" />"}
+{"Number":2,"Contents":"<admin command=\"auth\" user=\"waterson89\" merged=\"False\"/>"}
+
+//chat
+{"Number":3,"Contents":"<chat command=\"userlist\" quantity=\"1\"><user username=\"waterson89\" newmember=\"False\" chatprize=\"False\" returningplayer=\"False\" birthday=\"False\" client=\"html5\" twicesinned=\"False\" /></chat>"}
+
+//catchup after auth
+[{"Number":3,"Contents":"<admin command=\"nextgame\" time=\"53\" gameno=\"2203286\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"},
+{"Number":4,"Contents":"<cards game=\"next\" gameno=\"2203286\" hamster=\"0\" price=\"0\" betstring=\"00000000000000000000000000000000\" existingamount=\"0\" />"},
+{"Number":5,"Contents":"<calls command=\"catchup\" gameno=\"2203285\" gamestage=\"0\" quantity=\"2\" houseprize=\"0\" timeelapsed=\"66399.6789\" hamsterset=\"3\"  gametype=\"1\"  promotype=\"0\"  noplayers=\"0\" calls=\"1345888375434122145857367474767645212367282876768212668677573724381446857283628574241815538753368685472261324532833213838378326384251415372876874575565526283323888822738464421182714556442432487317534888526173725611118788875645322615767234415664535815522631113111727474481447567443314236826537271127378257252865821136245238524741645587625367161717758517111865467534762852763266676534631172243874514444526171643567255717357\" stepstaken=\"60\" />"},
+{"Number":6,"Contents":"<info><hamsterset><last8 hams=\"71328535\" /><last100><hamster ham=\"1\" races=\"15\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"2\" races=\"21\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"3\" races=\"18\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"4\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"5\" races=\"10\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"6\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"7\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"8\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/></last100></hamsterset></info>"}]
+
+//nextgame
+{"Number":7,"Contents":"<admin command=\"nextgame\" time=\"51\" gameno=\"2203286\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}
+{"Number":8,"Contents":"<admin command=\"nextgame\" time=\"41\" gameno=\"2203286\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}
+{"Number":9,"Contents":"<admin command=\"nextgame\" time=\"31\" gameno=\"2203286\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}
+{"Number":10,"Contents":"<admin command=\"nextgame\" time=\"21\" gameno=\"2203286\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}
+{"Number":11,"Contents":"<admin command=\"nextgame\" time=\"11\" gameno=\"2203286\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}
+
+{"Number":12,"Contents":"<calls command=\"reset\" gameno=\"2203286\" noplayers=\"0\" hamsterset=\"3\" gametype=\"1\" full=\"7634766886172451532282835468176555841515164413141635276457436885882284372323153267653811471287568421774372253385162155472542464314553246311716521853364347667242243431621572587628751464154465842727564547617252668588243463361611534523186371756121188436326848181126383473578888867787116185223587285815222181133527612511428738577781381845362778683358648633445758756635687528482325412483183451665735131677553538652246777533765\" />"}
+
+[{"Number":13,"Contents":"<admin command=\"nextgame\" time=\"119\" gameno=\"2203287\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"},
+{"Number":14,"Contents":"<calls command=\"calls\" full=\"7634766886172451532282835468176555841515164413141635276457436885882284372323153267653811471287568421774372253385162155472542464314553246311716521853364347667242243431621572587628751464154465842727564547617252668588243463361611534523186371756121188436326848181126383473578888867787116185223587285815222181133527612511428738577781381845362778683358648633445758756635687528482325412483183451665735131677553538652246777533765\" winner=\"5\"/>"}]
+
+{"Number":15,"Contents":"<admin command=\"nextgame\" time=\"110\" gameno=\"2203287\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}
+{"Number":16,"Contents":"<admin command=\"nextgame\" time=\"100\" gameno=\"2203287\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}
+
+{"Number":19,"Contents":"<calls command=\"Winner\" Quantity=\"0\" totalprizes=\"0\" prizeperbet=\"0\" prizepool=\"0\" totalplayers=\"0\" ></calls>"}
+
+[{"Number":20,"Contents":"<calls command=\"SetStage\" newstage=\"0\" />"},
+{"Number":21,"Contents":"<info><hamsterset><last8 hams=\"57132853\" /><last100><hamster ham=\"1\" races=\"15\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"2\" races=\"21\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"3\" races=\"18\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"4\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"5\" races=\"11\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"6\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"7\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"8\" races=\"8\" staked=\"0\" won=\"0\" percentage=\"0\"/></last100></hamsterset></info>"}]
+
+{"Number":22,"Contents":"<admin command=\"nextgame\" time=\"70\" gameno=\"2203287\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}
+
+//chat
+
+[{"Number":4,"Contents":"<chat command=\"adduser\" user=\"craigh44\" notify=\"no\" quantity=\"2\" chatprize=\"False\" messageid=\"1744\" newmember=\"False\" returningplayer=\"False\" birthday=\"False\" client=\"html5\" twicesinned=\"False\"></chat>"}]
