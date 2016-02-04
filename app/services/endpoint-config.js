@@ -1,4 +1,7 @@
 (function () {
     'use strict';
-    /*TODO: Write some codez*/
+    angular.module('Tombola.Mockster')
+		.value('Endpoints', [
+			'/:game/:requestType'
+		])
 })();

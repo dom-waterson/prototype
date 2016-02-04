@@ -14,6 +14,7 @@
   },
   "electronVersion": "0.36.0",
   "scripts": {
+    "start" : "electron .",
     "test": "xo",
     "build-mac": "electron-packager ./.prebuild Mockster --ignore=.dist --out=.dist/osx --platform=darwin --arch=x64 --version=0.28.2",
     "build-win": "electron-packager ./.prebuild Mockster --ignore=.dist --out=.dist/win --platform=win32 --arch=x64 --version=0.28.2",

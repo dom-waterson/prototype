@@ -29,6 +29,8 @@
 					</div>
 				</div>
 
+				<button ng-click="mocksterService.initializeServer()" ng-hide="mocksterService.serverRunning">Start server</button>
+				<button ng-click="mocksterService.stopServer()" ng-show="mocksterService.serverRunning">Stop server</button>
 				<button ng-click="mocksterService.clearRequests()">Clear Log</button>
 			</section>
 			<footer></footer>
