@@ -14,7 +14,7 @@
   },
   "electronVersion": "0.36.0",
   "scripts": {
-    "start" : "electron .",
+    "start": "electron .",
     "test": "xo",
     "build-mac": "electron-packager ./.prebuild Mockster --ignore=.dist --out=.dist/osx --platform=darwin --arch=x64 --version=0.28.2",
     "build-win": "electron-packager ./.prebuild Mockster --ignore=.dist --out=.dist/win --platform=win32 --arch=x64 --version=0.28.2",
@@ -50,6 +50,7 @@
     "xo": "^0.12.0"
   },
   "dependencies": {
-    "express-xml-bodyparser": "^0.2.2"
+    "express-xml-bodyparser": "^0.2.2",
+    "http-delayed-response": "0.0.4"
   }
 }
