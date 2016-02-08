@@ -12,7 +12,7 @@
 		},
 		"send" :{
 			'purchase': {
-				nextMessage: {endpoint: "send", source:"pre-canned", responseIndex:3},
+				nextMessage: {endpoint: "send", source:"pre-canned", responseIndex:1},
 				response: [{"Number":14,"Contents":"<admin command=\"purchase\" success=\"true\" newbalance=\"997687\" newexistingspend=\"50\" quantity=\"1\" />"}]
 			},
 			"auth": {
@@ -68,12 +68,15 @@
 
     angular.module('Tombola.Mockster')
 		.service('MocksterService', ['$rootScope', '$interval', '$timeout', function ($rootScope, $interval, $timeout) {
+			//console.log(__dirname);
 			var express = require('express');
 			var bodyParser = require('body-parser');
-			var delayed = require('http-delayed-response');
+			var hamsters = require('games/test2.json');
+			console.log(hamsters);
 			var myApp = express();
 			var fs = require('fs');
 			var me = this;
+			var timelineIndex = 0;
 			me.port = '';
 			me.serverRunning = false;
 			me.startTimeline = false;
@@ -111,15 +114,15 @@
 			var longPollingQueue = new LongPollingQueue();
 
 			var queueUpNextMessage = function(nextMessageDefinition){
-				longPollingQueue.enqueue(responses2[nextMessageDefinition.source][nextMessageDefinition.responseIndex].response);
+				longPollingQueue.enqueue(hamsters.send[nextMessageDefinition.source][nextMessageDefinition.responseIndex].response)
 			};
 
 			var queueUpNextResponses = function(nextMessageDefinition){
-				var i;
 				if(!nextMessageDefinition){
 					return;
 				}
 				if(nextMessageDefinition.constructor === Array){
+					var i;
 					for(i=0; i < nextMessageDefinition.length; i++){
 						queueUpNextMessage(nextMessageDefinition[i]);
 					}
@@ -135,62 +138,34 @@
 			};
 
 			var handleStandardRequest = function(req, res, endpointDefinition){
-				respond(res, responses2[endpointDefinition.name]);
+				respond(res, hamsters[endpointDefinition.name]);
 			};
 
 			var handleLongPollRequest = function (req, res, endpointDefinition) {
 				//TODO: handle endpoint assumes only one long poll queue - need to create queue per long polled endpoint
 				if(req.body.match(/none/)){
-					$timeout(function () {
-						if(longPollingQueue.queue.length > 0){
-							res.send(longPollingQueue.queue);
-							longPollingQueue.reset();
-						} else {
-							//404, 200
-							res.send(200);
-						}
-					},2000);
+					if(longPollingQueue.queue.length > 0){
+						res.send(longPollingQueue.queue);
+						longPollingQueue.reset();
+					} else {
+						$timeout(function () {
+							res.send(hamsters.send['timeline'][timelineIndex].response);
+							timelineIndex++;
+						},10000);
+					}
 				}
 
 				//TODO: Better & generic way to tie command to message
 				if(req.body.match(/command="auth"/g)){
-					respond(res, responses2[endpointDefinition.name]["auth"]);
-					me.startTimeLineResponses();
+					respond(res, hamsters[endpointDefinition.name]["auth"]);
 				}
 				else if (req.body.match(/command="clubcount"/g)){
-					res.send();
+				//	res.send({"Number":10,"Contents":"<admin command=\"nextgame\" time=\"30\" gameno=\"2206035\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"});
 				}
 				else if (req.body.match(/command="purchase"/g)) {
-					respond(res, responses2[endpointDefinition.name]["purchase"]);
+					respond(res, hamsters[endpointDefinition.name]["purchase"]);
 				}
 			};
-
-			me.startTimeLineResponses = function () {
-				var i = 0,
-					j =0;
-
-				$interval(function() {
-					longPollingQueue.enqueue(responses2['send']['*'][i].response);
-					console.log("pollingQueue");
-					console.log(responses2['send']['*'][i].response);
-					i++;
-				},1000, responses2['send']['*'].length);
-
-				$interval(function() {
-					longPollingQueue.enqueue(nextGames[j]);
-					console.log("nextgame");
-					console.log(nextGames[j]);
-					j++;
-				},10000, nextGames.length);
-			};
-
-			var nextGames = [
-				{"Number":8,"Contents":"<admin command=\"nextgame\" time=\"50\" gameno=\"2206035\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"},
-				{"Number":9,"Contents":"<admin command=\"nextgame\" time=\"40\" gameno=\"2206035\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"},
-				{"Number":10,"Contents":"<admin command=\"nextgame\" time=\"30\" gameno=\"2206035\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"},
-				{"Number":11,"Contents":"<admin command=\"nextgame\" time=\"20\" gameno=\"2206035\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"},
-				{"Number":12,"Contents":"<admin command=\"nextgame\" time=\"10\" gameno=\"2206035\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"}
-			];
 
 			me.start = function(){
 				var server = myApp.listen(8081, function () {

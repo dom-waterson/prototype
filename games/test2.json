@@ -1,0 +1,42 @@
+{
+  "connect":{
+	"nextMessage": {"endpoint": "send", "source":"pre-canned", "responseIndex":0},
+	"response": { "guid": "bf00d6b2-0a7b-4b14-b66f-2c507bbc7108" }
+  },
+  "disconnect": {
+	"response": [{ "disconnect": "true" }]
+  },
+  "send" :{
+	"purchase": {
+	  "nextMessage": {"endpoint": "send", "source":"pre-canned", "responseIndex":1},
+	  "response": [{"Number":14,"Contents":"<admin command=\"purchase\" success=\"true\" newbalance=\"997687\" newexistingspend=\"50\" quantity=\"1\" />"}]
+	},
+	"auth": {
+	  "nextMessage": [
+		{"endpoint": "send", "source":"pre-canned", "responseIndex":1},
+		{"endpoint": "send", "source":"pre-canned", "responseIndex":2},
+		{"endpoint": "send", "source":"pre-canned", "responseIndex":3},
+		{"endpoint": "send", "source":"pre-canned", "responseIndex":4}],
+	  "response": [{"Number":2,"Contents":"<admin command=\"auth\" user=\"waterson89\" balance=\"997737\" />"}]
+	},
+	"pre-canned": [
+	  {"response": {"Number":1,"Contents":"<connected />"}},
+	  {"response": {"Number":3,"Contents":"<admin command=\"nextgame\" time=\"51\" gameno=\"2208318\" hamsterset=\"1\" gametype=\"1\" promotype=\"0\" />"}},
+	  {"response": {"Number":4,"Contents":"<cards game=\"next\" gameno=\"2208318\" hamster=\"0\" price=\"0\" betstring=\"00000000000000000000000000000000\" existingamount=\"0\" />"}},
+	  {"response": {"Number":5,"Contents":"<calls command=\"catchup\" gameno=\"2208317\" gamestage=\"0\" quantity=\"2\" houseprize=\"0\" timeelapsed=\"79116.4254\" hamsterset=\"1\"  gametype=\"1\"  promotype=\"0\"  noplayers=\"0\" calls=\"617211524252563637723161477237828453726373857136814448113834176555351432547442571321843571414182817347873844811226115573822833585846337845635111444138524213186747437527884148816185885516646485331422253784418611653135517314688113182888832323378848281862661846866367181676661345375755687587517451823633864884241212778818842217211787147214115563676511\" stepstaken=\"190\" />"}},
+	  {"response": {"Number":6,"Contents":"<info><hamsterset><last8 hams=\"72631418\" /><last100><hamster ham=\"1\" races=\"28\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"2\" races=\"15\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"3\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"4\" races=\"12\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"5\" races=\"12\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"6\" races=\"12\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"7\" races=\"6\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"8\" races=\"6\" staked=\"0\" won=\"0\" percentage=\"0\"/></last100></hamsterset></info>"}}
+	],
+	"timeline":[
+	  {"response" : [{"Number":7,"Contents":"<admin command=\"nextgame\" time=\"40\" gameno=\"2208318\" hamsterset=\"1\" gametype=\"1\" promotype=\"0\" />"}]},
+	  {"response" : [{"Number":8,"Contents":"<admin command=\"nextgame\" time=\"30\" gameno=\"2208318\" hamsterset=\"1\" gametype=\"1\" promotype=\"0\" />"}]},
+	  {"response" : [{"Number":9,"Contents":"<admin command=\"nextgame\" time=\"20\" gameno=\"2208318\" hamsterset=\"1\" gametype=\"1\" promotype=\"0\" />"}]},
+	  {"response" : [{"Number":10,"Contents":"<admin command=\"nextgame\" time=\"10\" gameno=\"2208318\" hamsterset=\"1\" gametype=\"1\" promotype=\"0\" />"}]},
+	  {"response" : [{"Number":11,"Contents":"<calls command=\"reset\" gameno=\"2208318\" noplayers=\"0\" hamsterset=\"1\" gametype=\"1\" full=\"463468257853383122173657762441331636226273844314274173448228252562631261883652145878582141774542383872156143143533216153778875672737471876274254488837658434872447685365447868472553415448258452444283548536443568726538556788537582737657141723117333864216116151214583348314537274351251381767387652618325221437684422626612824318844718488276335543415576246515265156468364425744563344\" />"},{"Number":12,"Contents":"<admin command=\"nextgame\" time=\"120\" gameno=\"2208319\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"},{"Number":13,"Contents":"<calls command=\"calls\" full=\"463468257853383122173657762441331636226273844314274173448228252562631261883652145878582141774542383872156143143533216153778875672737471876274254488837658434872447685365447868472553415448258452444283548536443568726538556788537582737657141723117333864216116151214583348314537274351251381767387652618325221437684422626612824318844718488276335543415576246515265156468364425744563344\" winner=\"4\"/>"}]},
+	  {"response" : [{"Number":14,"Contents":"<admin command=\"nextgame\" time=\"110\" gameno=\"2208319\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}]},
+	  {"response" : [{"Number":15,"Contents":"<admin command=\"nextgame\" time=\"101\" gameno=\"2208319\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}]},
+	  {"response" : [{"Number":16,"Contents":"<admin command=\"nextgame\" time=\"91\" gameno=\"2208319\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}]},
+	  {"response" : [{"Number":17,"Contents":"<calls command=\"Winner\" Quantity=\"0\" totalprizes=\"0\" prizeperbet=\"0\" prizepool=\"0\" totalplayers=\"0\" ></calls>"}, {"Number":18,"Contents":"<calls command=\"SetStage\" newstage=\"0\" />"},{"Number":19,"Contents":"<info><hamsterset><last8 hams=\"72161675\" /><last100><hamster ham=\"1\" races=\"32\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"2\" races=\"11\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"3\" races=\"15\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"4\" races=\"11\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"5\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"6\" races=\"8\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"7\" races=\"9\" staked=\"0\" won=\"0\" percentage=\"0\"/><hamster ham=\"8\" races=\"5\" staked=\"0\" won=\"0\" percentage=\"0\"/></last100></hamsterset></info>"}]},
+	  {"response" : [{"Number":20,"Contents":"<admin command=\"nextgame\" time=\"81\" gameno=\"2208319\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}]},
+	  {"response" : [{"Number":21,"Contents":"<admin command=\"nextgame\" time=\"71\" gameno=\"2208319\" hamsterset=\"3\" gametype=\"1\" promotype=\"0\" />"}]}
+	]
+}}
