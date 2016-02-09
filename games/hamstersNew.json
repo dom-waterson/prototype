@@ -41,4 +41,5 @@
 	  {"response" :[{"Number":34,"Contents":"<admin command=\"nextgame\" time=\"61\" gameno=\"2210541\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"}],"delayTime":10000},
 	  {"response" :[{"Number":35,"Contents":"<admin command=\"nextgame\" time=\"51\" gameno=\"2210541\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"}],"delayTime":10000}
 	]
-  }}
+  }
+}

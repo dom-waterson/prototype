@@ -27,7 +27,7 @@
 		.service('MocksterService', ['$rootScope', '$timeout', function ($rootScope, $timeout) {
 			var express = require('express');
 			var bodyParser = require('body-parser');
-			var hamsters = require('games/hamstersNew.json');
+			var hamsters = require('games/pulse.json');
 			var myApp = express();
 			var fs = require('fs');
 			var me = this;
@@ -115,6 +115,7 @@
 				}
 				else if (req.body.match(/command="clubcount"/g)){
 				//	res.send({"Number":10,"Contents":"<admin command=\"nextgame\" time=\"30\" gameno=\"2206035\" hamsterset=\"2\" gametype=\"1\" promotype=\"0\" />"});
+					respond(res, hamsters[endpointDefinition.name]["club"]);
 				}
 				else if (req.body.match(/command="purchase"/g)) {
 					respond(res, hamsters[endpointDefinition.name]["purchase"]);
