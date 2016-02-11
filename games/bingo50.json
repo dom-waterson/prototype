@@ -1,0 +1,99 @@
+{
+  "connect":{
+	"nextResponse": {"Number":1,"Contents":"<connected />"},
+	"response": { "guid": "02f142f4-6f4a-4b45-baf3-f0e0e1ef62ca" }
+  },
+  "disconnect": {
+	"response": [{ "disconnect": "true" }]
+  },
+  "send" :{
+	"purchase": {
+	  "nextResponse": {"Number":7,"Contents":"<cards game=\"next\" quantity=\"1\" gameno=\"676031\"><strip id=\"1\"><ticket id=\"A\" numbers=\"04162631420817283444\" /><ticket id=\"B\" numbers=\"03152133410519303643\" /><ticket id=\"C\" numbers=\"01112235460718244050\" /><ticket id=\"D\" numbers=\"06122337481013293849\" /><ticket id=\"E\" numbers=\"02142532450920273947\" /></strip></cards>"},
+	  "response": [{"Number":6,"Contents":"<admin command=\"purchase\" success=\"true\" newbalance=\"164740\" newexistingspend=\"25\" quantity=\"1\" />"}]
+	},
+	"club":{
+	  "response":[{"Number":2,"Contents":"<admin command=\"clubcount\" nextgameclub=\"0\" currentgameclub=\"0\" ><club clubno=\"1\" count=\"0\" full=\"False\" closed=\"False\" /></admin>"},{"Number":3,"Contents":"<disconnected />"}]
+	},
+	"auth": {
+	  "nextResponse": [
+		{"Number":3,"Contents":"<admin command=\"nextgame\" time=\"45\" gameno=\"676031\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"},
+		{"Number":4,"Contents":"<calls command=\"catchup\" gameno=\"676030\" gamestage=\"0\" quantity=\"50\" houseprize=\"0\" lineprize=\"0\" promotype=\"0\" lineprize25=\"0\" houseprize25=\"0\" lineprize50=\"0\" houseprize50=\"0\" lineprize75=\"0\" houseprize75=\"0\" lineprize100=\"0\" houseprize100=\"0\" timeelapsed=\"278366.4841\"  noplayers=\"0\" calls=\"2908140912301722373439504431051623044932380215414543104725480140182720071106421935244603133326362821\" />"}
+	  ],
+	  "response": [{"Number":2,"Contents":"<admin command=\"auth\" user=\"bigmanjapan\" balance=\"164765\" existingspend=\"0\" nextgameq=\"0\" club=\"1\" nextgameclub=\"0\" currentgameclub=\"0\"  ticketprice=\"100\"  />"}]
+	},
+	"timeline":[
+	  {"response" : [{"Number":5,"Contents":"<admin command=\"nextgame\" time=\"40\" gameno=\"676031\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":10000},
+	  {"response" : [{"Number":8,"Contents":"<admin command=\"nextgame\" time=\"30\" gameno=\"676031\" noplayers=\"1\" promotype=\"0\" prize25l=\"8\" prize25h=\"13\" prize50l=\"15\" prize50h=\"25\" prize75l=\"23\" prize75h=\"38\" prize100l=\"30\" prize100h=\"50\"  />"}],"delayTime":10000},
+	  {"response" : [{"Number":9,"Contents":"<admin command=\"nextgame\" time=\"20\" gameno=\"676031\" noplayers=\"1\" promotype=\"0\" prize25l=\"8\" prize25h=\"13\" prize50l=\"15\" prize50h=\"25\" prize75l=\"23\" prize75h=\"38\" prize100l=\"30\" prize100h=\"50\"  />"}],"delayTime":10000},
+	  {"response" : [{"Number":10,"Contents":"<admin command=\"nextgame\" time=\"10\" gameno=\"676031\" noplayers=\"1\" promotype=\"0\" prize25l=\"8\" prize25h=\"13\" prize50l=\"15\" prize50h=\"25\" prize75l=\"23\" prize75h=\"38\" prize100l=\"30\" prize100h=\"50\"  />"}], "delayTime":10000},
+	  {"response" : [{"Number":11,"Contents":"<calls command=\"reset\" gameno=\"676031\" noplayers=\"1\" lineprize=\"30\" houseprize=\"50\" promotype=\"0\" lineprize25=\"8\" houseprize25=\"13\" lineprize50=\"15\" houseprize50=\"25\" lineprize75=\"23\" houseprize75=\"38\" lineprize100=\"30\" houseprize100=\"50\"  />"}], "delayTime":10000},
+	  {"response" : [{"Number":12,"Contents":"<admin command=\"nextgame\" time=\"284\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":13,"Contents":"<admin command=\"nextgame\" time=\"280\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":4000},
+	  {"response" : [{"Number":14,"Contents":"<calls command=\"calls\" callno=\"1\" call=\"46\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":15,"Contents":"<admin command=\"nextgame\" time=\"270\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":8000},
+	  {"response" : [{"Number":16,"Contents":"<calls command=\"calls\" callno=\"2\" call=\"9\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":17,"Contents":"<calls command=\"calls\" callno=\"3\" call=\"22\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":18,"Contents":"<calls command=\"calls\" callno=\"4\" call=\"42\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":19,"Contents":"<admin command=\"nextgame\" time=\"260\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":4000},
+	  {"response" : [{"Number":20,"Contents":"<calls command=\"calls\" callno=\"5\" call=\"50\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":21,"Contents":"<calls command=\"calls\" callno=\"6\" call=\"44\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":22,"Contents":"<admin command=\"nextgame\" time=\"250\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":23,"Contents":"<calls command=\"calls\" callno=\"7\" call=\"36\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":24,"Contents":"<calls command=\"calls\" callno=\"8\" call=\"12\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":25,"Contents":"<calls command=\"calls\" callno=\"9\" call=\"29\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":26,"Contents":"<admin command=\"nextgame\" time=\"240\" gameno=\"76032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":4000},
+	  {"response" : [{"Number":27,"Contents":"<calls command=\"calls\" callno=\"10\" call=\"25\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":28,"Contents":"<calls command=\"calls\" callno=\"11\" call=\"48\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":29,"Contents":"<admin command=\"nextgame\" time=\"230\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":30,"Contents":"<calls command=\"calls\" callno=\"12\" call=\"23\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":31,"Contents":"<calls command=\"calls\" callno=\"13\" call=\"34\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":32,"Contents":"<calls command=\"calls\" callno=\"14\" call=\"21\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":33,"Contents":"<admin command=\"nextgame\" time=\"220\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":4000},
+	  {"response" : [{"Number":34,"Contents":"<calls command=\"calls\" callno=\"15\" call=\"26\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":35,"Contents":"<calls command=\"calls\" callno=\"16\" call=\"3\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":36,"Contents":"<admin command=\"nextgame\" time=\"210\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":38,"Contents":"<calls command=\"calls\" callno=\"18\" call=\"11\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":39,"Contents":"<calls command=\"calls\" callno=\"19\" call=\"40\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":40,"Contents":"<admin command=\"nextgame\" time=\"200\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":41,"Contents":"<calls command=\"calls\" callno=\"20\" call=\"28\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":42,"Contents":"<calls command=\"calls\" callno=\"21\" call=\"14\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":43,"Contents":"<admin command=\"nextgame\" time=\"190\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":44,"Contents":"<calls command=\"calls\" callno=\"22\" call=\"17\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":45,"Contents":"<calls command=\"calls\" callno=\"23\" call=\"47\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":46,"Contents":"<calls command=\"calls\" callno=\"24\" call=\"31\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":47,"Contents":"<admin command=\"nextgame\" time=\"180\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":4000},
+	  {"response" : [{"Number":48,"Contents":"<calls command=\"calls\" callno=\"25\" call=\"20\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":49,"Contents":"<calls command=\"calls\" callno=\"26\" call=\"19\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":50,"Contents":"<admin command=\"nextgame\" time=\"170\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":51,"Contents":"<calls command=\"calls\" callno=\"27\" call=\"1\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":52,"Contents":"<calls command=\"calls\" callno=\"28\" call=\"10\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":53,"Contents":"<calls command=\"calls\" callno=\"29\" call=\"4\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":54,"Contents":"<admin command=\"nextgame\" time=\"160\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":4000},
+	  {"response" : [{"Number":55,"Contents":"<calls command=\"calls\" callno=\"30\" call=\"8\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":56,"Contents":"<admin command=\"balance\" balance=\"164748\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":57,"Contents":"<calls command=\"winner\" quantity=\"1\" jackpot=\"False\" ><winner user=\"bigmanjapan\" prize=\"8\" pricepoint=\"1\" stage=\"1\" /></calls>"},{"Number":58,"Contents":"<calls command=\"SetStage\" newstage=\"3\" />"}], "delayTime":1000},
+	  {"response" : [{"Number":59,"Contents":"<admin command=\"nextgame\" time=\"150\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":5000},
+	  {"response" : [{"Number":60,"Contents":"<calls command=\"calls\" callno=\"31\" call=\"33\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":61,"Contents":"<admin command=\"nextgame\" time=\"140\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":8000},
+	  {"response" : [{"Number":62,"Contents":"<calls command=\"calls\" callno=\"32\" call=\"30\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":63,"Contents":"<calls command=\"calls\" callno=\"33\" call=\"6\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":64,"Contents":"<calls command=\"calls\" callno=\"34\" call=\"5\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":65,"Contents":"<admin command=\"nextgame\" time=\"130\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":4000},
+	  {"response" : [{"Number":66,"Contents":"<calls command=\"calls\" callno=\"35\" call=\"49\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":67,"Contents":"<calls command=\"calls\" callno=\"36\" call=\"37\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":68,"Contents":"<admin command=\"nextgame\" time=\"120\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":69,"Contents":"<calls command=\"calls\" callno=\"37\" call=\"2\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":70,"Contents":"<calls command=\"calls\" callno=\"38\" call=\"45\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":71,"Contents":"<calls command=\"calls\" callno=\"39\" call=\"7\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":72,"Contents":"<admin command=\"nextgame\" time=\"110\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":4000},
+	  {"response" : [{"Number":73,"Contents":"<calls command=\"calls\" callno=\"40\" call=\"35\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":74,"Contents":"<calls command=\"calls\" callno=\"41\" call=\"18\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":75,"Contents":"<admin command=\"nextgame\" time=\"100\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":6000},
+	  {"response" : [{"Number":46,"Contents":"<calls command=\"calls\" callno=\"24\" call=\"31\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":76,"Contents":"<admin command=\"balance\" balance=\"164761\" />"}], "delayTime":1000},
+	  {"response" : [{"Number":77,"Contents":"<calls command=\"winner\" quantity=\"1\" jackpot=\"False\" ><winner user=\"bigmanjapan\" prize=\"13\" pricepoint=\"1\" stage=\"3\" /></calls>"},{"Number":78,"Contents":"<calls command=\"winnerinfo\" gameno=\"676031\" ><stage stage=\"1\" quantity=\"1\" ><Winner User=\"bigmanjapan\" prize=\"8\"  pricepoint=\"1\" /></stage><stage stage=\"3\" quantity=\"1\" ><Winner User=\"bigmanjapan\" prize=\"13\"  pricepoint=\"1\" /></stage></calls>"},{"Number":79,"Contents":"<calls command=\"SetStage\" newstage=\"0\" />"}], "delayTime":2000},
+	  {"response" : [{"Number":80,"Contents":"<admin command=\"nextgame\" time=\"90\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":5000},
+	  {"response" : [{"Number":81,"Contents":"<admin command=\"nextgame\" time=\"80\" gameno=\"676032\" noplayers=\"0\" promotype=\"0\" prize25l=\"0\" prize25h=\"0\" prize50l=\"0\" prize50h=\"0\" prize75l=\"0\" prize75h=\"0\" prize100l=\"0\" prize100h=\"0\"  />"}], "delayTime":10000}
+	]
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "connect": {
+    "nextResponse": {
+      "Number": 1,
+      "Contents": "<connected />"
+    },
+    "response": {
+      "guid": "615031f1-5af7-4b60-b09b-4919d735c4ec"
+    }
+  },
+  "disconnect": {
+    "response": [
+      {
+        "disconnected": "true"
+      }
+    ]
+  },
+  "send": {
+    "club": {
+      "response": [
+        {
+          "Number": 2,
+          "Contents": "<admin command=\"clubcount\" nextgameclub=\"0\" currentgameclub=\"0\" ><club clubno=\"1\" count=\"0\" full=\"False\" closed=\"False\" time=\"10531\" /><club clubno=\"2\" count=\"1\" full=\"False\" closed=\"False\" time=\"46261\" /><club clubno=\"3\" count=\"0\" full=\"False\" closed=\"False\" time=\"27782\" /><club clubno=\"4\" count=\"0\" full=\"False\" closed=\"False\" time=\"29401\" /><club clubno=\"5\" count=\"0\" full=\"False\" closed=\"False\" time=\"141380\" /><club clubno=\"6\" count=\"0\" full=\"False\" closed=\"False\" time=\"31209\" /><club clubno=\"7\" count=\"0\" full=\"False\" closed=\"True\" time=\"31931\" /><club clubno=\"8\" count=\"0\" full=\"False\" closed=\"True\" time=\"31121\" /><club clubno=\"9\" count=\"0\" full=\"False\" closed=\"True\" time=\"29451\" /><club clubno=\"10\" count=\"0\" full=\"False\" closed=\"True\" time=\"26291\" /><club clubno=\"11\" count=\"0\" full=\"False\" closed=\"True\" time=\"12041\" /><club clubno=\"12\" count=\"0\" full=\"False\" closed=\"True\" time=\"31841\" /><club clubno=\"13\" count=\"0\" full=\"False\" closed=\"True\" time=\"146570\" /><club clubno=\"14\" count=\"0\" full=\"False\" closed=\"False\" time=\"30641\" /></admin>\r\n"
+        }
+      ]
+    },
+    "purchase": {
+      "nextResponse": [
+        {
+          "Number": 7,
+          "Contents": "<admin command=\"purchase\" success=\"true\" newbalance=\"997652\" newexistingspend=\"10\" quantity=\"1\" />"
+        },
+        {
+          "Number": 8,
+          "Contents": "<cards game=\"next\" price=\"10\" gameno=\"6891191\"><ticket numbers=\"090325010730150513120420\" /></cards>"
+        }
+      ],
+      "response": [
+        {
+          "Number": 6,
+          "Contents": "<admin command=\"nextgame\" time=\"20\" gameno=\"6891191\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+        }
+      ]
+    },
+    "auth": {
+      "nextResponse": [
+        {
+          "Number": 3,
+          "Contents": "<admin command=\"nextgame\" time=\"24\" gameno=\"6891191\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+        },
+        {
+          "Number": 4,
+          "Contents": "<cards game=\"next\" price=\"0\" gameno=\"6891191\"><ticket numbers=\"000000000000000000000000\" /></cards>"
+        },
+        {
+          "Number": 5,
+          "Contents": "<calls command=\"catchup\" gameno=\"6891177\" gamestage=\"0\" quantity=\"36\" promotype=\"0\" prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" timeelapsed=\"125830.0163\"  noplayers=\"0\" calls=\"353007363301091519172024210528020832340625140422271110031329231631261812\" />"
+        }
+      ],
+      "response": [
+        {
+          "Number": 2,
+          "Contents": "<admin command=\"auth\" user=\"waterson89\" balance=\"997662\" existingspend=\"0\" nextgameq=\"0\" club=\"6\" nextgameclub=\"0\" currentgameclub=\"0\"  ticketprice=\"200\"  />"
+        }
+      ]
+    },
+    "timeline": [
+      {
+        "response": [
+          {
+            "Number": 9,
+            "Contents": "<admin command=\"nextgame\" time=\"10\" gameno=\"6891191\" promotype=\"0\"   prize10=\"9\" prize25=\"22\" prize50=\"44\" prize100=\"88\" prize200=\"175\" />"
+          }
+        ],
+        "delayTime": 9664.669999998292
+      },
+      {
+        "response": [
+          {
+            "Number": 10,
+            "Contents": "<calls command=\"reset\" gameno=\"6891191\" noplayers=\"1\" promotype=\"0\" prize10=\"9\" prize25=\"22\" prize50=\"44\" prize100=\"88\" prize200=\"175\" />"
+          }
+        ],
+        "delayTime": 10040.220000024428
+      },
+      {
+        "response": [
+          {
+            "Number": 11,
+            "Contents": "<admin command=\"nextgame\" time=\"142\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 230.842999997549
+      },
+      {
+        "response": [
+          {
+            "Number": 12,
+            "Contents": "<admin command=\"nextgame\" time=\"140\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2053.4110000007804
+      },
+      {
+        "response": [
+          {
+            "Number": 13,
+            "Contents": "<calls command=\"calls\" callno=\"1\" call=\"12\" />"
+          }
+        ],
+        "delayTime": 7679.094999999504
+      },
+      {
+        "response": [
+          {
+            "Number": 14,
+            "Contents": "<admin command=\"nextgame\" time=\"130\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2337.018999998689
+      },
+      {
+        "response": [
+          {
+            "Number": 15,
+            "Contents": "<calls command=\"calls\" callno=\"2\" call=\"1\" />"
+          }
+        ],
+        "delayTime": 1119.5810000062938
+      },
+      {
+        "response": [
+          {
+            "Number": 16,
+            "Contents": "<calls command=\"calls\" callno=\"3\" call=\"36\" />"
+          }
+        ],
+        "delayTime": 3436.2329999858057
+      },
+      {
+        "response": [
+          {
+            "Number": 17,
+            "Contents": "<calls command=\"calls\" callno=\"4\" call=\"2\" />"
+          }
+        ],
+        "delayTime": 3386.1350000079224
+      },
+      {
+        "response": [
+          {
+            "Number": 18,
+            "Contents": "<admin command=\"nextgame\" time=\"120\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2031.7429999995518
+      },
+      {
+        "response": [
+          {
+            "Number": 19,
+            "Contents": "<calls command=\"calls\" callno=\"5\" call=\"32\" />"
+          }
+        ],
+        "delayTime": 1264.9430000164982
+      },
+      {
+        "response": [
+          {
+            "Number": 20,
+            "Contents": "<calls command=\"calls\" callno=\"6\" call=\"15\" />"
+          }
+        ],
+        "delayTime": 3267.7710000134493
+      },
+      {
+        "response": [
+          {
+            "Number": 21,
+            "Contents": "<calls command=\"calls\" callno=\"7\" call=\"6\" />"
+          }
+        ],
+        "delayTime": 3218.7970000086343
+      },
+      {
+        "response": [
+          {
+            "Number": 22,
+            "Contents": "<admin command=\"nextgame\" time=\"110\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2244.245000008958
+      },
+      {
+        "response": [
+          {
+            "Number": 23,
+            "Contents": "<calls command=\"calls\" callno=\"8\" call=\"22\" />"
+          }
+        ],
+        "delayTime": 884.9779999873131
+      },
+      {
+        "response": [
+          {
+            "Number": 24,
+            "Contents": "<calls command=\"calls\" callno=\"9\" call=\"19\" />"
+          }
+        ],
+        "delayTime": 3132.3440000123805
+      },
+      {
+        "response": [
+          {
+            "Number": 25,
+            "Contents": "<calls command=\"calls\" callno=\"10\" call=\"25\" />"
+          }
+        ],
+        "delayTime": 3184.1339999809875
+      },
+      {
+        "response": [
+          {
+            "Number": 26,
+            "Contents": "<admin command=\"nextgame\" time=\"100\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2798.104999994391
+      },
+      {
+        "response": [
+          {
+            "Number": 27,
+            "Contents": "<calls command=\"calls\" callno=\"11\" call=\"17\" />"
+          }
+        ],
+        "delayTime": 253.732999990461
+      },
+      {
+        "response": [
+          {
+            "Number": 28,
+            "Contents": "<calls command=\"calls\" callno=\"12\" call=\"30\" />"
+          }
+        ],
+        "delayTime": 2897.0710000139698
+      },
+      {
+        "response": [
+          {
+            "Number": 29,
+            "Contents": "<calls command=\"calls\" callno=\"13\" call=\"10\" />"
+          }
+        ],
+        "delayTime": 2960.9850000124407
+      },
+      {
+        "response": [
+          {
+            "Number": 30,
+            "Contents": "<calls command=\"calls\" callno=\"14\" call=\"33\" />"
+          }
+        ],
+        "delayTime": 2867.6639999903314
+      },
+      {
+        "response": [
+          {
+            "Number": 31,
+            "Contents": "<admin command=\"nextgame\" time=\"90\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 822.627999994438
+      },
+      {
+        "response": [
+          {
+            "Number": 32,
+            "Contents": "<calls command=\"calls\" callno=\"15\" call=\"34\" />"
+          }
+        ],
+        "delayTime": 1895.0480000057757
+      },
+      {
+        "response": [
+          {
+            "Number": 33,
+            "Contents": "<calls command=\"calls\" callno=\"16\" call=\"9\" />"
+          }
+        ],
+        "delayTime": 2777.2100000002
+      },
+      {
+        "response": [
+          {
+            "Number": 34,
+            "Contents": "<calls command=\"calls\" callno=\"17\" call=\"24\" />"
+          }
+        ],
+        "delayTime": 2698.887000005923
+      },
+      {
+        "response": [
+          {
+            "Number": 35,
+            "Contents": "<admin command=\"nextgame\" time=\"80\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2585.7320000068325
+      },
+      {
+        "response": [
+          {
+            "Number": 36,
+            "Contents": "<calls command=\"calls\" callno=\"18\" call=\"16\" />"
+          }
+        ],
+        "delayTime": 50.4669999936595
+      },
+      {
+        "response": [
+          {
+            "Number": 37,
+            "Contents": "<calls command=\"calls\" callno=\"19\" call=\"4\" />"
+          }
+        ],
+        "delayTime": 2621.5720000036567
+      },
+      {
+        "response": [
+          {
+            "Number": 38,
+            "Contents": "<calls command=\"calls\" callno=\"20\" call=\"8\" />"
+          }
+        ],
+        "delayTime": 2586.156000004846
+      },
+      {
+        "response": [
+          {
+            "Number": 39,
+            "Contents": "<calls command=\"calls\" callno=\"21\" call=\"26\" />"
+          }
+        ],
+        "delayTime": 2524.1049999895054
+      },
+      {
+        "response": [
+          {
+            "Number": 40,
+            "Contents": "<admin command=\"nextgame\" time=\"70\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2189.3480000144327
+      },
+      {
+        "response": [
+          {
+            "Number": 41,
+            "Contents": "<calls command=\"calls\" callno=\"22\" call=\"28\" />"
+          }
+        ],
+        "delayTime": 294.3819999927659
+      },
+      {
+        "response": [
+          {
+            "Number": 42,
+            "Contents": "<calls command=\"calls\" callno=\"23\" call=\"11\" />"
+          }
+        ],
+        "delayTime": 2546.9329999759834
+      },
+      {
+        "response": [
+          {
+            "Number": 43,
+            "Contents": "<calls command=\"calls\" callno=\"24\" call=\"14\" />"
+          }
+        ],
+        "delayTime": 2476.5309999929786
+      },
+      {
+        "response": [
+          {
+            "Number": 44,
+            "Contents": "<calls command=\"calls\" callno=\"25\" call=\"20\" />"
+          }
+        ],
+        "delayTime": 2537.8099999798023
+      },
+      {
+        "response": [
+          {
+            "Number": 45,
+            "Contents": "<admin command=\"nextgame\" time=\"60\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2085.865000000927
+      },
+      {
+        "response": [
+          {
+            "Number": 46,
+            "Contents": "<calls command=\"calls\" callno=\"26\" call=\"7\" />"
+          }
+        ],
+        "delayTime": 443.1340000010095
+      },
+      {
+        "response": [
+          {
+            "Number": 47,
+            "Contents": "<calls command=\"calls\" callno=\"27\" call=\"35\" />"
+          }
+        ],
+        "delayTime": 2517.7309999999175
+      },
+      {
+        "response": [
+          {
+            "Number": 48,
+            "Contents": "<calls command=\"calls\" callno=\"28\" call=\"31\" />"
+          }
+        ],
+        "delayTime": 2495.0529999914584
+      },
+      {
+        "response": [
+          {
+            "Number": 49,
+            "Contents": "<calls command=\"calls\" callno=\"29\" call=\"27\" />"
+          }
+        ],
+        "delayTime": 2529.9620000005225
+      },
+      {
+        "response": [
+          {
+            "Number": 50,
+            "Contents": "<admin command=\"nextgame\" time=\"50\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 2065.5029999907156
+      },
+      {
+        "response": [
+          {
+            "Number": 51,
+            "Contents": "<calls command=\"calls\" callno=\"30\" call=\"18\" />"
+          }
+        ],
+        "delayTime": 462.2920000110755
+      },
+      {
+        "response": [
+          {
+            "Number": 52,
+            "Contents": "<calls command=\"calls\" callno=\"31\" call=\"13\" />"
+          }
+        ],
+        "delayTime": 2509.246000001441
+      },
+      {
+        "response": [
+          {
+            "Number": 53,
+            "Contents": "<calls command=\"calls\" callno=\"32\" call=\"29\" />"
+          }
+        ],
+        "delayTime": 2512.0890000253003
+      },
+      {
+        "response": [
+          {
+            "Number": 54,
+            "Contents": "<calls command=\"calls\" callno=\"33\" call=\"5\" />"
+          }
+        ],
+        "delayTime": 2487.2409999952633
+      },
+      {
+        "response": [
+          {
+            "Number": 55,
+            "Contents": "<admin command=\"nextgame\" time=\"40\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 1951.4520000084287
+      },
+      {
+        "response": [
+          {
+            "Number": 56,
+            "Contents": "<calls command=\"calls\" callno=\"34\" call=\"3\" />"
+          }
+        ],
+        "delayTime": 588.6879999889061
+      },
+      {
+        "response": [
+          {
+            "Number": 58,
+            "Contents": "<calls command=\"winner\" quantity=\"1\" jackpot=\"False\" ><winner user=\"waterson89\" prize=\"9\" stage=\"1\" /></calls>"
+          },
+          {
+            "Number": 59,
+            "Contents": "<calls command=\"winnerinfo\" gameno=\"6891191\" ><stage stage=\"1\" quantity=\"1\" ><Winner User=\"waterson89\" prize=\"9\" /></stage></calls>"
+          },
+          {
+            "Number": 60,
+            "Contents": "<calls command=\"SetStage\" newstage=\"0\" />"
+          }
+        ],
+        "delayTime": 54.5679999922868
+      },
+      {
+        "response": [
+          {
+            "Number": 61,
+            "Contents": "<admin command=\"nextgame\" time=\"30\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 6805.369000008801
+      },
+      {
+        "response": [
+          {
+            "Number": 62,
+            "Contents": "<admin command=\"nextgame\" time=\"20\" gameno=\"6891205\" promotype=\"0\"   prize10=\"0\" prize25=\"0\" prize50=\"0\" prize100=\"0\" prize200=\"0\" />"
+          }
+        ],
+        "delayTime": 9997.7929999877
+      }
+    ]
+  }
+}

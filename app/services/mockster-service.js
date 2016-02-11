@@ -27,7 +27,7 @@
 		.service('MocksterService', ['$rootScope', '$timeout', function ($rootScope, $timeout) {
 			var express = require('express');
 			var bodyParser = require('body-parser');
-			var hamsters = require('games/pulse.json');
+			var hamsters = require('games/pluseNew.json');
 			var myApp = express();
 			var fs = require('fs');
 			var me = this;
